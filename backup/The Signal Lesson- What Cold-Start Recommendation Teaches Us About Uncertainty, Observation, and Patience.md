@@ -1,14 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://justopit.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://justopit.github.io</link></image><lastBuildDate>Sun, 20 Jul 2025 14:04:41 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>The Signal Lesson: What Cold-Start Recommendation Teaches Us About Uncertainty, Observation, and Patience</title><link>https://justopit.github.io/post/The%20Signal%20Lesson-%20What%20Cold-Start%20Recommendation%20Teaches%20Us%20About%20Uncertainty%2C%20Observation%2C%20and%20Patience.html</link><description>&gt; A tribute to the AI giant:  the bitter lesson http://www.incompleteideas.net/IncIdeas/BitterLesson.html 
+> A tribute to the AI giant:  the bitter lesson http://www.incompleteideas.net/IncIdeas/BitterLesson.html 
 
-One of the most important lessons from real-world recommendation systems — a lesson we have only partially learned — is that good content doesn’t always shout. Sometimes it grows quietly, in spurts, in odd rhythms, and in contexts we didn’t fully control. In a world with limited resources and noisy feedback, we are tempted to make snap judgments: 'this video looks slow, it must be weak' — but this is a cognitive shortcut, not a strategy.
+One of the most important lessons from real-world recommendation systems — a lesson we have only partially learned — is that good content doesn’t always shout. Sometimes it grows quietly, in spurts, in odd rhythms, and in contexts we didn’t fully control. In a world with limited resources and noisy feedback, we are tempted to make snap judgments: "this video looks slow, it must be weak" — but this is a cognitive shortcut, not a strategy.
 
 The harsh truth is that most cold-start recommendation systems are designed to optimize for early performance, not true potential. They rely on strong, immediate feedback — often through boosting — to decide whether to promote a video or drop it. But the signals gathered under boosting are flawed: they are biased, inflated, and context-dependent. They reflect system behavior more than user preference. We know this, and yet we rely on these signals, because they are abundant and fast.
 
 On the other hand, organic signals — the ones that emerge when content competes naturally — are far more truthful. They are what users do when no one is watching. But they are also slow, noisy, and sparse. We don’t like them because they don’t tell us what we want to know quickly. We discard them when they seem weak, and in doing so, we often discard the content that needs just a bit more patience.
 
 This is the signal dilemma in cold-start:  
-&gt; Do we believe the noisy-but-rich signal that comes from intervention?  
+> Do we believe the noisy-but-rich signal that comes from intervention?  
 Or the clean-but-sparse signal that emerges without it?
 
 We propose a different mindset. Instead of forcing a binary decision early — boost or not, keep or kill — we treat cold-start as a **sequential information-gathering process**. Each round of boosting is not a judgment, but a probe. Each round of organic exposure is not a verdict, but a test. And the sequence of these signals, taken together, tells a deeper story than any single spike ever could.
@@ -20,7 +19,6 @@ This is not about learning a better scoring model. It is about **building a prot
 Over time, we learn to spot content that grows naturally. We allocate more of our limited boost to those pieces, because they prove themselves. Not because they screamed the loudest under spotlight, but because they walked steadily under the sun.
 
 The lesson is simple but hard to implement:  
-&gt; Don’t just measure what happens under control. Observe what happens when you step back.
+> Don’t just measure what happens under control. Observe what happens when you step back.
 
 Only then can we build systems that find not just what performs, but what endures.
-。</description><guid isPermaLink="true">https://justopit.github.io/post/The%20Signal%20Lesson-%20What%20Cold-Start%20Recommendation%20Teaches%20Us%20About%20Uncertainty%2C%20Observation%2C%20and%20Patience.html</guid><pubDate>Sun, 20 Jul 2025 14:04:18 +0000</pubDate></item></channel></rss>
